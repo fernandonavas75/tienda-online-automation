@@ -1,6 +1,6 @@
 Feature: Product - Store
 
-  Scenario: Validación del precio de un producto con credenciales válidas
+  Scenario: Validación del precio de un producto
     Given estoy en la página de la tienda
     And me logueo con mi usuario "navasfernando75@gmail.com" y clave "JbnM201211@@"
     When navego a la categoria "Clothes" y subcategoria "Men"
